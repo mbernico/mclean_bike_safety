@@ -1,4 +1,4 @@
-id,date,time,fault,motorist_name,motorist_gender,insured,veh_make,veh_model,veh_year,cyclist_name,cyclist_gender,bike,geo_loc,location_car,location_bike,arrest,officer_id,m_citation,m_section,c_citation,c_section,hospital,
+id,date,time,fault,motorist_name,motorist_gender,insured,veh_make,veh_model,veh_year,cyclist_name,cyclist_gender,bike,geo_loc,location_car,location_bike,arrest,officer_id,m_citation,m_section,c_citation,c_section,hospital,summary
 14-358,03/26/14,05:18:00 PM,cyclist,Jonathan T. Coughlon,m,y,ford,edge,2011,David R. Williams,m,reflex,coolidge and college ave,intersection,sidewalk,cyclist,7700,,,237233,11-1002(b),refused,"cyclist on sidewalk, didn't stop at intersection"
 14-575,06/04/14,03:23:00 PM,unknown,Anna M. Eastman,f,y,ford,taurus,2004,Demarco A. Clayton,m,unknown,808 South Linden Street,parking_lot,parking_lot,no,na,,,,,bromenn,kids playing in a parking lot
 14-576,06/04/14,09:40:00 PM,cyclist,Zachery A. Perhoch,m,y,chevrolet,unknown,2009,David W. Rutledge,m,unknown,linden and vernon,intersection,intersection,cyclist,954,,,241473,11-306,bromenn,"cyclist ran a red light, hit by car"
