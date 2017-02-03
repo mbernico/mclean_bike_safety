@@ -1,0 +1,4 @@
+id,date,time,fault,motorist_name,motorist_sex,insured,veh_make,veh_model,veh_year,cyclist_name,cyclist_sex,bike,geo_loc,location_car,location_bike,arrest,officer_id,m_citation,m_section,c_citation,c_section,hospital,cyclist_cat,summary
+14-126,06/24/14,3:04pm,motorist,Trevor L. Curry,M,State Farm,Ford,F150,2010,Matthew J. Mckee,M,unknown,2500 North 1475 East Mclean County,road,road,motorist,11838,130633,11-601A,,,unknown,sport,Cyclist struck by motorists mirror
+201509156,07/07/15,6:18 pm,motorist,Randy Crump,M,unknown,Cadillac,unknown,unknown,Dean Davis,M,felt,2250 North Road and 1000 East Mclean,road,road,motorist,9487,,11-703,,,bromenn,sport,Cyclist ran off the road by motorist
+15-291,10/30/15,11:15:00 AM,motorist,Dorthy J. Albrechit,F,Allied Insurance,toyota,echo,2004,Francois Noel Hoitermann,F,giant aluxx sl,1925 East Road and 2525 north road mclean county,road,road,motorist,12876,134888,11-601(a),,,hospital,sport,Cyclist struck by motorist (likely mirror)
