@@ -2,6 +2,10 @@
 
 ## Data Sources
 
+### Time Frame
+* report_2015 spanned from Jan 2014 until June 2015.
+* report_2017 spanned from Jul 2015 until Dec 2016.
+
 
 ### Source Notes
 *  FOIAs For all Bike/Auto Crashes that have occured in McLean county from the McLean County Sherrif, the Normal, IL PD, and the Bloomington, IL PD.
