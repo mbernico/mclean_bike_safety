@@ -38,14 +38,15 @@ def split_lat_long(x):
 
 
 def clean_lat_long(df):
-    df = df.merge(df.lat_long.apply(split_lat_long), left_index=True, right_index=True)
+    df_latlong = df.lat_long.apply(split_lat_long)
+    df = pd.concat([df, df_latlong], axis=1)
     df = df.drop(['lat_long'], axis=1)
     return df
 
 
 def write_data(df):
     fn = os.path.join(os.path.dirname(__file__), "../data/derived/complete_dataset.csv")
-    v.to_csv(fn, index=False)
+    df.to_csv(fn, index=False)
 
 
 def main():
@@ -53,9 +54,7 @@ def main():
     df = merge_datasets(bike_data)
     df = clean_date(df)
     df = clean_lat_long(df)
-
-    print(df.shape)
-    print(df.columns)
+    write_data(df)
 
 if __name__ == "__main__":
     main()
